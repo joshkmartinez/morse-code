@@ -1,13 +1,6 @@
 {
-  "name": "All Lowercse As a Service",
-  "alias": [
-    "AllLowercaseAsaService",
-    "alaas",
-    "laas",
-    "lower",
-    "lowercase",
-    "low"
-  ],
+  "name": "Morse",
+  "alias": ["morse", "morse-code", "morseCode"],
   "version": 2,
   "builds": [{ "src": "api.js", "use": "@now/node-server" }],
   "routes": [{ "src": "/(.*)", "dest": "api.js" }],
